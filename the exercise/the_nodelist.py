@@ -65,7 +65,7 @@ if __name__=='__main__':
         nodelist.append(i)
     nodelist.preappend(200)
     nodelist.insert(3,1000)
-    nodelist.delete(8)
+    nodelist.delete(3)
     nodelist.display()
 
 
