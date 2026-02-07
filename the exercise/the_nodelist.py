@@ -55,13 +55,13 @@ class Linkednode():
         if self.head==None:
             return None
         current=self.head
-        while current.next:
+        while current:
             elements.append(str(current.val))
             current=current.next
         print('=>'.join(elements))
 if __name__=='__main__':
     nodelist=Linkednode()
-    for i in range(10):
+    for i in range(1,11):
         nodelist.append(i)
     nodelist.preappend(200)
     nodelist.insert(3,1000)
